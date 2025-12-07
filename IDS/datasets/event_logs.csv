@@ -1,0 +1,9 @@
+timestamp,host,user,event_type,status,detail
+2025-10-01T10:00:10,hostA,alice,login,success,ssh
+2025-10-01T10:00:50,hostA,bob,login,fail,ssh
+2025-10-01T10:01:10,hostA,bob,login,fail,ssh
+2025-10-01T10:01:20,hostA,bob,login,fail,ssh
+2025-10-01T10:01:40,hostA,bob,login,fail,ssh
+2025-10-01T10:02:00,hostA,bob,login,fail,ssh
+2025-10-01T10:03:00,hostB,service,sudo,fail,incorrect password
+2025-10-01T11:00:00,hostA,alice,login,success,ssh

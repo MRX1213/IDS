@@ -1,0 +1,10 @@
+scapy>=2.5.0
+flask>=2.3.0
+matplotlib>=3.7.0
+pandas>=2.0.0
+python-nmap>=0.7.1
+
+# Note: Npcap (Windows packet capture driver) must be installed separately
+# Download from: https://npcap.com/
+# Required for Scapy packet capture on Windows
+
